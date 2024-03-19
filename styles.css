@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+
+body {  
+    
+    width: 100%;
+    min-height: 100vh;    
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ANIMATIONS ------------------------------------------------------ */
+
+#email:hover  {
+    animation: girar 1s cubic-bezier(0.02, 0.27, 0.25, 0.83);
+}
+#linkedin:hover  {
+    animation: girar 1s cubic-bezier(0.02, 0.27, 0.25, 0.83);
+}
+#github:hover  {
+    animation: girar 1s cubic-bezier(0.02, 0.27, 0.25, 0.83);
+}
+#instagram:hover  {
+    animation: girar 1s cubic-bezier(0.02, 0.27, 0.25, 0.83);
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* END ANIMATIONS ----------------------------------------------------- */
+
+/* HEADER  --------------------------------------------------------*/
+
+.navigation_container_div {
+    display: flex;
+}
+
+.navigation_container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #C3D4FF;
+    width: 100vw;
+}
+
+.navigation_container_iten {
+    display: inline;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color:#ffffff;
+}
+
+#Home_button {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+#Projects_button {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+#Contact_button {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+
+/* END HEADER -------------------------------------------------- */
+
+/* MAIN --------------------------------------------------------- */
+
+.contents {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: radial-gradient(
+    ellipse at center,
+    #AD5AFF 0%,
+    #C3D4FF 50%
+  );
+    height: 100vh;
+}
+
+.main_title {
+    position: relative;
+    display: inline-block;
+}
+
+.icons_list {
+    display: inline;
+}
+
+.icons {
+    color: #000;
+}
+
+.intro_icons > ul {
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    right: 1px;
+}
+
+.text_div {
+    background: linear-gradient( #C3D4FF,#AD5AFF);
+}
+
+#Intro {
+    font-size: 1.5rem;
+    display: inline;
+    position: absolute;
+    top: 25px;
+    left: 11px;
+}
+
+#Icons {
+    display: inline;
+    font-size: 2rem;
+    top: 15px;
+}
+
+#Designer {
+    font-size: 11rem;
+    display: inline-block;
+}
+
+#Age {
+    font-size: 1rem;
+    display: block;
+    position: absolute;
+    right: 1px;
+    bottom: 40px;
+}
+
+
+
+/* END MAIN --------------------------------------------------------- */
+
