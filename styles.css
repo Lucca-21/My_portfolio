@@ -97,39 +97,37 @@ a {
 
 /* MAIN --------------------------------------------------------- */
 
+
+/* ************************************* Main Paige *********************************** */
 .contents {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-image: radial-gradient(
-    ellipse at center,
-    #AD5AFF 0%,
-    #C3D4FF 50%
-  );
+        ellipse at center,
+        #AD5AFF 0%,
+        #C3D4FF 50%
+        );
     height: 100vh;
-}
-
+    }
+    
 .main_title {
     position: relative;
     display: inline-block;
 }
-
+    
 .icons_list {
     display: inline;
 }
-
+    
 .icons {
     color: #000;
 }
-
+    
 .intro_icons > ul {
     margin: 0px 0px 0px 0px;
     position: absolute;
     right: 1px;
-}
-
-.text_div {
-    background: linear-gradient( #C3D4FF,#AD5AFF);
 }
 
 #Intro {
@@ -139,18 +137,18 @@ a {
     top: 25px;
     left: 11px;
 }
-
+    
 #Icons {
     display: inline;
     font-size: 2rem;
     top: 15px;
 }
-
+    
 #Designer {
     font-size: 11rem;
     display: inline-block;
 }
-
+    
 #Age {
     font-size: 1rem;
     display: block;
@@ -158,8 +156,80 @@ a {
     right: 1px;
     bottom: 40px;
 }
+    
+    
+/* *************************************  End Main Paige *********************************** */
+
+.background_gradient {
+    background: linear-gradient( #C3D4FF,#AD5AFF);
+}
+
+/* *********************************** Projects_overview ********************************************** */
+
+.projects_overview {
+    height: 100vh;
+    padding-top: 20vh;
+}
+
+.pokemon_1_and_2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pokemon {
+    width: 300px;
+    height: 300px;
+}
+
+.pokemon_1 {
+    display: block;
+    align-items: center;
+}
+
+.pokemon_2 {
+    display: block;
+    align-items: center;
+}
+
+.pokemon_3 {
+    display: block;
+    align-items: center;
+}
+
+.pokemon_3_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ********************************************* End Projects_overview ************************************ */
+
+.project_container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.project_image {
+    width: 600px;
+    height: 600px;
+}
+
+.project_text {
+    max-width: 800px;
+}
+
+.project_1{
+    padding-top: 150px;
+}
+.project_2 {
+    padding-top: 150px;
+}
+.project_3 {
+    padding-top: 150px;
+}
+
+
 
 
 
 /* END MAIN --------------------------------------------------------- */
-
