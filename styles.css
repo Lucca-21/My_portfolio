@@ -168,7 +168,7 @@ a {
 
 .projects_overview {
     height: 100vh;
-    padding-top: 150px;
+    padding: 100px 0px 50px 0px;
 }
 
 .pokemon_1_and_2 {
@@ -203,6 +203,10 @@ a {
 
 /* ********************************************* End Projects_overview ************************************ */
 
+.projects {
+    padding-top: 150px;
+}
+
 .project_container {
     display: flex;
     justify-content: space-evenly;
@@ -219,13 +223,13 @@ a {
 }
 
 .project_1{
-    padding-top: 150px;
+    padding: 100px 0px 0px 0px;
 }
 .project_2 {
-    padding-top: 150px;
+    padding: 100px 0px 0px 0px;
 }
 .project_3 {
-    padding-top: 150px;
+    padding: 100px 0px 0px 0px;
 }
 
 
