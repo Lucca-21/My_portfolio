@@ -115,36 +115,35 @@ a {
 }
     
 .intro_icons > ul {
-    margin: 0px 0px 0px 0px;
     position: absolute;
-    right: 1px;
 }
 
 #Intro {
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: inline;
     position: absolute;
-    top: 25px;
-    left: 11px;
 }
     
 #Icons {
     display: inline;
     font-size: 2rem;
-    top: 15px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
     
 #Designer {
     font-size: 11rem;
     display: inline-block;
+
 }
     
 #Age {
-    font-size: 1rem;
+    font-size: 1.2rem;
     display: block;
     position: absolute;
-    right: 1px;
-    bottom: 40px;
+    right: 0px;
+    bottom: 0px;
 }
     
     
@@ -160,6 +159,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .overview {
@@ -179,12 +179,14 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .project_container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     width: 100%;
     height: 100vh;
     margin: 100px 0px 100px 0px;
@@ -192,6 +194,12 @@ a {
 
 .project_image {
     width: 500px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .project_text {
@@ -242,14 +250,14 @@ legend {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    width: 100%;    
+    width: 100%;
 }
 
 .form_legend {
@@ -259,7 +267,7 @@ legend {
 }
 
 .form_input {
-    min-width: 600px;
+    width: 60%;
 }
 
 .form_info {
@@ -359,11 +367,13 @@ legend {
 /* *************************** MEDIA QUERIES ****************************** */
 
 .box_sizing {
-    border: solid 1px red;
-    width: 1440px;
+    width: 1366px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1366px) {
     .box_sizing {
         width: 1280px;
     }
@@ -379,21 +389,112 @@ legend {
 
 @media (max-width: 1024px) {
     .box_sizing {
-        width: 844px;
+        width: 768px;
     }
 
     html {
-        font-size: 80%;
+        font-size: 10px;
+    }
+
+    .contents {
+        height: 50vh;
+    }
+
+    .overview {
+        font-size: 2rem;
+    }
+
+    .projects_overview {
+        height: 50vh;
+        scroll-margin-top: 25vh;
+    }
+
+    .project_container {
+        height: 50vh;
+        scroll-margin-top: 25vh;
+    }
+
+    .contact {
+        height: 50vh;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .information {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin-bottom: 20px;
     }
 
     .overview_image {
-        width: 80%;
+        width: 250px;
     }
 
     .project_image {
-        width: 80%;
+        width: 500px;
     }
 
+    .description {
+        font-size: 2rem;
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    .box_sizing {
+        width: 540px;
+    }
+
+    .navigation {
+        height: 50px;
+    }
+
+    .project_image {
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 540px) {
+
+    .box_sizing {
+        width: 414px;
+    }
+
+    html {
+        font-size: 7px;
+    }
+
+    .overview {
+        font-size: 1.5rem;
+    }
+
+    .overview_image {
+        width: 120px;
+    }
+
+    .project_image {
+        width: 300px;
+    }
+
+    .description {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .box_sizing {
+        width: 375px;
+    }
+
+    html {
+        font-size: 6px;
+    }
 }
 
 /* *************************** END MEDIA QUERIES ****************************** */
