@@ -267,7 +267,7 @@ legend {
 }
 
 .form_input {
-    width: 60%;
+    width: 100%;
 }
 
 .form_info {
@@ -403,15 +403,26 @@ legend {
     .overview {
         font-size: 2rem;
     }
-
+    
     .projects_overview {
         height: 50vh;
         scroll-margin-top: 25vh;
     }
 
+    .overview_image {
+        width: 250px;
+    }
+    
     .project_container {
         height: 50vh;
         scroll-margin-top: 25vh;
+    }
+    .project_image {
+        width: 500px;
+    }
+
+    .description {
+        font-size: 2rem;
     }
 
     .contact {
@@ -425,23 +436,17 @@ legend {
 
     .information {
         display: flex;
-        justify-content: space-around;
-        width: 90%;
+        justify-content: space-between;
+        width: 100%;
         margin-bottom: 20px;
+        font-size: 1.7rem;
+        flex-wrap: wrap;
     }
 
-    .overview_image {
-        width: 250px;
+    .information > ul {
+        width: 40%;
     }
 
-    .project_image {
-        width: 500px;
-    }
-
-    .description {
-        font-size: 2rem;
-    }
-    
 }
 
 @media (max-width: 768px) {
@@ -450,12 +455,76 @@ legend {
         width: 540px;
     }
 
+    .navigation > a > p{
+        font-size: 2.5rem;
+    }
+
+    #Intro {
+        font-size: 2.2rem;
+    }
+
+    #Icons {
+        font-size: 3rem;
+    }
+
+    #Age {
+        font-size: 1.7rem;
+    }
+
     .navigation {
         height: 50px;
     }
 
+    .projects_overview {
+        flex-direction: column;
+    }
+
+    .overview_image {
+        width: 150px;
+    }
+
     .project_image {
         width: 400px;
+    }
+
+    .description {
+        font-size: 2.2rem;
+    }
+
+    .form_legend {
+        font-size: 3rem;
+    }
+
+    #name_title {
+        font-size: 2rem;
+    }
+
+    #name_input {
+        font-size: 2rem;
+    }
+
+    #email_title {
+        font-size: 2rem;
+    }
+
+    #email_input {
+        font-size: 2rem;
+    }
+
+    #message_title {
+        font-size: 2rem;
+    }
+
+    #message_input {
+        font-size: 2rem;
+    }
+
+    #button {
+        font-size: 3rem;
+    }
+
+    .year_developed {
+        font-size: 2rem;
     }
 
 }
@@ -495,6 +564,29 @@ legend {
     html {
         font-size: 6px;
     }
+
+    .projects_overview {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .overview_image {
+        width: 130px;
+    }
+
+    .description {
+        font-size: 2rem;
+    }
+
+    .contact {
+        height: 70vh;
+    }
+
+    .footer {
+        width: 80%;
+        height: 90%;
+    }
+
 }
 
 /* *************************** END MEDIA QUERIES ****************************** */
