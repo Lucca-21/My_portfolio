@@ -138,7 +138,7 @@ a {
 
 }
     
-#Age {
+#Curso {
     font-size: 1.2rem;
     display: block;
     position: absolute;
@@ -149,7 +149,35 @@ a {
     
 /* *************************************  End Main Paige *********************************** */
 
+/* *************************************  About *********************************** */
 
+.about_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    scroll-margin-top: 20vh;
+}
+
+.about_container > h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.about_text_1 {
+    font-size: 1rem;
+    width: 60%;
+    text-align: justify;
+}
+
+.about_text_2 {
+    font-size: 1rem;
+    width: 90%;
+    text-align: justify;
+}
+
+/* *************************************  End About *********************************** */
 
 /* *********************************** Projects_overview ********************************************** */
 
@@ -205,6 +233,7 @@ a {
 .project_text {
     max-width: 800px;
     text-align: center;
+    text-align: justify;
 }
 
 .project_1{
@@ -371,6 +400,7 @@ legend {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid 1px red;
 }
 
 @media (max-width: 1366px) {
@@ -396,8 +426,16 @@ legend {
         font-size: 10px;
     }
 
+    #Curso {
+        font-size: 1.7rem;
+    }
+
     .contents {
         height: 50vh;
+    }
+
+    .about_text {
+        font-size: 1.3rem;
     }
 
     .overview {
@@ -467,7 +505,7 @@ legend {
         font-size: 3rem;
     }
 
-    #Age {
+    #Curso {
         font-size: 1.7rem;
     }
 
