@@ -471,7 +471,7 @@ legend {
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Mobile >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
 
     html {
         font-size: 8px;
