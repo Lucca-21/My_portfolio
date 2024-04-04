@@ -403,11 +403,12 @@ legend {
 @media (max-width: 1024px) {
 
     html {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .box_sizing {
-        width: 700px;
+        width: 600px;
+        border: solid 1px yellow;
     }
 
 /* ============= Header =========== */
@@ -442,7 +443,7 @@ legend {
     }
 
     .about_pt_1 > h2 {
-        font-size: 3rem;
+        font-size: 2.8rem;
         width: 30%;
         transform: rotate(270deg);
     }
@@ -478,95 +479,94 @@ legend {
 
 /* ================ Projects ==================== */
 
-.projects {
-    margin: 100px 0px;
-}
-.project_container {
-    scroll-margin-top: 20vh;
-    padding: 150px 0px;
-    margin: 0;
-}
+    .projects {
+        margin: 100px 0px;
+    }
+    .project_container {
+        scroll-margin-top: 20vh;
+        padding: 150px 0px;
+        margin: 0;
+    }
 
-.project_image {
-    width: 500px;
-}
+    .project_image {
+        width: 500px;
+    }
 
-.classe {
-    font-size: 2rem;
-}
+    .classe {
+        font-size: 2rem;
+    }
 
-.project_title {
-    font-size: 3rem;
-}
+    .project_title {
+        font-size: 3rem;
+    }
 
-.project_text {
-    font-size: 2rem;
-}
+    .project_text {
+        font-size: 2rem;
+    }
 
 /* ================ Footer ==================== */
 
-.footer {
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-}
+    .footer {
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+    }
 
-.information {
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+    .information {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 
-.form_input {
-    width: 80%;
-}
+    .form_input {
+        width: 80%;
+    }
 
-.form_legend {
-    font-size: 4rem;
-}
+    .form_legend {
+        font-size: 4rem;
+    }
 
-#name_title {
-    font-size: 1.5rem;
-}
+    #name_title {
+        font-size: 1.5rem;
+    }
 
-#email_title {
-    font-size: 1.5rem;
-}
+    #email_title {
+        font-size: 1.5rem;
+    }
 
-#message_title {
-    font-size: 1.5rem;
-}
+    #message_title {
+        font-size: 1.5rem;
+    }
 
-#name_input {
-    font-size: 2.3rem;
-}
+    #name_input {
+        font-size: 2.3rem;
+    }
 
-#email_input {
-    font-size: 2.3rem;
-}
+    #email_input {
+        font-size: 2.3rem;
+    }
 
-#message_input {
-    font-size: 2.3rem;
-}
+    #message_input {
+        font-size: 2.3rem;
+    }
 
-#button {
-    font-size: 3rem;
-    height: 70px;
-    border-radius: 30px;
-}
+    #button {
+        font-size: 3rem;
+        height: 70px;
+        border-radius: 30px;
+    }
 
-.information > ul > legend {
-    font-size: 2.5rem;
-}
+    .information > ul > legend {
+        font-size: 2.5rem;
+    }
 
-.information > ul > li {
-    font-size: 1.8rem;
-}
+    .information > ul > li {
+        font-size: 1.6rem;
+    }
 
-.year_developed {
-    font-size: 1.8rem;
-}
-
+    .year_developed {
+        font-size: 1.6rem;
+    }
 
 }
 
