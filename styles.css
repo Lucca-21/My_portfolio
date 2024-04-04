@@ -152,7 +152,7 @@ a {
 /* *************************************  About *********************************** */
 
 .about_container {
-    scroll-margin-top: 20vh;
+    scroll-margin-top: 10vh;
     height: 100%;
     gap: 0;
     display: flex;
@@ -198,6 +198,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 100px;
 }
 
 .overview {
@@ -236,7 +237,11 @@ a {
     align-items: center;
 }
 
-.description > p {
+.classe {
+    font-size: 1.2rem;
+}
+
+.project_title {
     font-size: 1.2rem;
 }
 
@@ -393,6 +398,178 @@ legend {
     align-items: center;
 }
 
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<< Small Screens >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 1024px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    .box_sizing {
+        width: 700px;
+    }
+
+/* ============= Header =========== */
+
+    .navigation {
+        height: 100px;
+    }
+
+    .navigation > a > p {
+        font-size: 2.5rem;
+    }
+
+/* =========== Main Page ============= */
+
+    #Intro {
+        font-size: 2rem;
+    }
+
+    #Icons {
+        font-size: 2.8rem;
+    }
+
+    #Curso {
+        font-size: 1.5rem;
+    }
+
+/* ========== About ============== */
+
+    .about_container {
+        scroll-margin-top: 20vh;
+        padding: 100px 0px;
+    }
+
+    .about_pt_1 > h2 {
+        font-size: 3rem;
+        width: 30%;
+        transform: rotate(270deg);
+    }
+
+    .about_text_1{
+        font-size: 1.5rem;
+    }
+
+    .about_text_2{
+        font-size: 1.5rem;
+    }
+
+/* ============ Project Overview ============= */
+
+    .projects_overview {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 100px 0px;
+    }
+
+    .overview > p {
+        font-size: 2rem;
+    }
+
+    .overview > h2 {
+        font-size: 3rem;
+    }
+
+    .overview_image {
+        width: 300px;
+    }
+
+/* ================ Projects ==================== */
+
+.projects {
+    margin: 100px 0px;
+}
+.project_container {
+    scroll-margin-top: 20vh;
+    padding: 150px 0px;
+    margin: 0;
+}
+
+.project_image {
+    width: 500px;
+}
+
+.classe {
+    font-size: 2rem;
+}
+
+.project_title {
+    font-size: 3rem;
+}
+
+.project_text {
+    font-size: 2rem;
+}
+
+/* ================ Footer ==================== */
+
+.footer {
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+}
+
+.information {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form_input {
+    width: 80%;
+}
+
+.form_legend {
+    font-size: 4rem;
+}
+
+#name_title {
+    font-size: 1.5rem;
+}
+
+#email_title {
+    font-size: 1.5rem;
+}
+
+#message_title {
+    font-size: 1.5rem;
+}
+
+#name_input {
+    font-size: 2.3rem;
+}
+
+#email_input {
+    font-size: 2.3rem;
+}
+
+#message_input {
+    font-size: 2.3rem;
+}
+
+#button {
+    font-size: 3rem;
+    height: 70px;
+    border-radius: 30px;
+}
+
+.information > ul > legend {
+    font-size: 2.5rem;
+}
+
+.information > ul > li {
+    font-size: 1.8rem;
+}
+
+.year_developed {
+    font-size: 1.8rem;
+}
+
+
+}
+
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Tablet >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 @media (max-width: 600px) {
@@ -404,7 +581,7 @@ legend {
     .box_sizing {
         width: 400px;
     }
-/* ========= Main Paige =========== */
+/* ========= Main Page =========== */
     #Intro {
         font-size: 1.5rem;
     }
@@ -417,6 +594,7 @@ legend {
 
     .about_pt_1 > h2 {
         font-size: 2rem;
+        transform: rotate(270deg);
     }
 /* ============ Project Overview ============= */
 
@@ -424,6 +602,15 @@ legend {
         flex-direction: column;
         align-items: center;
         margin: 100px 0px;
+        scroll-margin-top: 10vh;
+    }
+
+    .overview > p {
+        font-size: 1.5rem;
+    }
+
+    .overview > h2 {
+        font-size: 2rem;
     }
 
     .overview_image {
@@ -432,7 +619,9 @@ legend {
 
 /* ================ Projects ==================== */
 
-
+    .projects {
+        margin: 0px;
+    }
     .project_container {
         scroll-margin-top: 25vh;
         margin: 50px 0px;
@@ -440,6 +629,18 @@ legend {
 
     .project_image {
         width: 300px;
+    }
+
+    .classe {
+        font-size: 1.3rem;
+    }
+
+    .project_title {
+        font-size: 2.3rem;
+    }
+
+    .project_text {
+        font-size: 1.5rem;
     }
 
 /* ================ Footer ==================== */
@@ -453,21 +654,62 @@ legend {
         width: 80%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
-    .information > ul {
-        width: 50%;
-    }
-    
     .form_input {
         width: 80%;
     }
+
+    .form_legend {
+        font-size: 3rem;
+    }
+
+    #name_title {
+        font-size: 1.2rem;
+    }
+
+    #email_title {
+        font-size: 1.2rem;
+    }
+
+    #message_title {
+        font-size: 1.2rem;
+    }
+
+    #name_input {
+        font-size: 1.8rem;
+    }
+
+    #email_input {
+        font-size: 1.8rem;
+    }
+
+    #message_input {
+        font-size: 1.8rem;
+    }
+
+    #button {
+        font-size: 3rem;
+    }
+
+    .information > ul > legend {
+        font-size: 2rem;
+    }
+
+    .information > ul > li {
+        font-size: 1.2rem;
+    }
+
+    .year_developed {
+        font-size: 1.2rem;
+    }
+
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Mobile >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
 
     html {
         font-size: 8px;
@@ -479,6 +721,10 @@ legend {
 
 /* ==================== About =================== */
 
+    .about_container {
+        scroll-margin-top: 15vh;
+    }
+
     .about_pt_1 {
         flex-direction: column;
         width: 100%;
@@ -487,6 +733,7 @@ legend {
     .about_pt_1 > h2 {
         font-size: 3rem;
         width: 90%;
+        transform: rotate(0deg);
     }
 
     .about_text_1 {
@@ -494,18 +741,86 @@ legend {
         margin: 0px auto;
     }
 
+/* ============= Projects Overview ========== */
+
+    .projects_overview {
+        scroll-margin-top: 10vh;
+        margin: 100px 0px 50px 0px;
+    }
+
+    .overview > p {
+        font-size: 1.5rem;
+    }
+
+    .overview > h2 {
+        font-size: 2rem;
+    }
+
+    .overview_image {
+        width: 150px;
+    }
 /* ============== Projects =================== */
 
     .projects {
         margin: 50px 0px;
     }
 
-    .projects_overview {
-        margin: 100px 0px 50px 0px;
+    .classe {
+        font-size: 1.3rem;
     }
 
-    .overview_image {
-        width: 150px;
+    .project_title {
+        font-size: 2.3rem;
+    }
+
+    .project_text {
+        font-size: 1.5rem;
+    }
+
+/* ============ Footer ===================== */
+    
+    .form_legend {
+        font-size: 3rem;
+    }
+
+    #name_title {
+        font-size: 1.2rem;
+    }
+
+    #email_title {
+        font-size: 1.2rem;
+    }
+
+    #message_title {
+        font-size: 1.2rem;
+    }
+
+    #name_input {
+        font-size: 1.8rem;
+    }
+
+    #email_input {
+        font-size: 1.8rem;
+    }
+
+    #message_input {
+        font-size: 1.8rem;
+    }
+
+    #button {
+        font-size: 3rem;
+    }
+
+    .information > ul > legend {
+        font-size: 2rem;
+    }
+
+    .information > ul > li {
+        font-size: 1.2rem;
+    }
+
+    .year_developed {
+        font-size: 1.2rem;
     }
 
 }
