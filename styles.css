@@ -500,6 +500,14 @@ legend {
         margin: 50px 0px;
     }
 
+    .projects_overview {
+        margin: 100px 0px 50px 0px;
+    }
+
+    .overview_image {
+        width: 150px;
+    }
+
 }
 
 /* *************************** END MEDIA QUERIES ****************************** */
