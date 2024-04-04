@@ -175,13 +175,13 @@ a {
 }
 
 .about_text_1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 70%;
     text-align: justify;
 }
 
 .about_text_2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 90%;
     text-align: justify;
     margin: 0px auto;
@@ -414,15 +414,6 @@ legend {
     .about_pt_1 > h2 {
         font-size: 2rem;
     }
-
-    .about_text_1 {
-        font-size: 1rem;
-    }
-    
-    .about_text_1 {
-        font-size: 1rem;
-    }
-
 /* ============ Project Overview ============= */
 
     .projects_overview {
