@@ -718,11 +718,19 @@ legend {
         width: 320px;
     }
 
-/* ==================== About =================== */
-
+/* ================== Header ================== */   
     .navigation > a > p {
         font-size: 2rem;
     }
+
+/* ================== Main ==================== */
+
+#Icons {
+    font-size: 2.5rem;
+}
+
+
+/* ==================== About =================== */
 
     .about_container {
         scroll-margin-top: 15vh;
