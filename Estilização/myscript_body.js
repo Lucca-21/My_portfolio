@@ -10,10 +10,10 @@ function clicou() {
     hamburger.classList.toggle('active')
     nav.classList.toggle('active')
 
-    if (hb_img.getAttribute('src') !== '/imagens/close.svg') {
-        hb_img.setAttribute('src', '/imagens/close.svg')
+    if (hb_img.getAttribute('src') !== 'close.svg') {
+        hb_img.setAttribute('src', 'close.svg')
     } else {
-        hb_img.setAttribute('src', '/imagens/open.svg')
+        hb_img.setAttribute('src', 'open.svg')
     }
 
     const about = document.querySelector('#about_nav')
@@ -28,8 +28,8 @@ function clicou() {
         hamburger.classList.remove('active')
         nav.classList.remove('active')
 
-        if (hb_img.getAttribute('src') === '/imagens/close.svg') {
-            hb_img.setAttribute('src', '/imagens/open.svg')
+        if (hb_img.getAttribute('src') === 'close.svg') {
+            hb_img.setAttribute('src', 'open.svg')
         } else {
         }
     }
