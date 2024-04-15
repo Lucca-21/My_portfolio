@@ -11,4 +11,4 @@ function SendMail() {
         alert('Success!' + res.status);
     })
 }
- 
+

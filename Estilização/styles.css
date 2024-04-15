@@ -405,6 +405,8 @@ legend {
     cursor: pointer;
 }
 
+
+
 .year_developed {
     display: flex;
     flex-direction: column;
@@ -463,7 +465,7 @@ legend {
 /* ========== About ============== */
 
     .about_container {
-        scroll-margin-top: 20vh;
+        scroll-margin-top: 5vh;
         padding: 100px 0px;
     }
 
@@ -488,6 +490,7 @@ legend {
         align-items: center;
         justify-content: space-evenly;
         margin: 100px 0px;
+        scroll-margin-top: 5vh;
     }
 
     .overview > p {
@@ -506,9 +509,10 @@ legend {
 
     .projects {
         margin: 100px 0px;
+        padding: 50px 0px;
     }
     .project_container {
-        scroll-margin-top: 20vh;
+        scroll-margin-top: 5vh;
         padding: 150px 0px;
         margin: 0;
     }
@@ -688,6 +692,10 @@ nav.active ul a {
 
 /* =========== About ============= */
 
+    .about_container {
+        scroll-margin-top: 30px;
+    }
+
     .about_pt_1 > h2 {
         font-size: 2rem;
         transform: rotate(270deg);
@@ -720,8 +728,9 @@ nav.active ul a {
         margin: 0px;
     }
     .project_container {
-        scroll-margin-top: 25vh;
+        scroll-margin-top: 10vh;
         margin: 50px 0px;
+        padding: 50px 0px;
     }
 
     .project_image {
@@ -830,7 +839,7 @@ nav.active ul a {
 /* ==================== About =================== */
 
     .about_container {
-        scroll-margin-top: 15vh;
+        scroll-margin-top: 30px;
     }
 
     .about_pt_1 {
@@ -870,7 +879,12 @@ nav.active ul a {
 /* ============== Projects =================== */
 
     .projects {
-        margin: 50px 0px;
+        margin:0px 0px 50px 0px;
+        scroll-margin-top: 0px;
+    }
+
+    .project_container{
+        padding: 50px 0px;
     }
 
     .classe {
