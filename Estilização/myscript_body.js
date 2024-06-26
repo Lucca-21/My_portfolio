@@ -59,3 +59,15 @@ function sendClick() {
     button.style.backgroundColor = `green`
     button.style.color = `white`
 }
+
+/* ----------------------------------- Button redirect ------------------------------- */
+
+function queda_button() {
+    location.replace("https://www.instagram.com/p/C8qkZw3t6zz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==")
+}
+function cyber_button() {
+    location.replace("https://lucca-21.github.io/Trabalho_empreendedorismo/")
+}
+function jaguar_button() {
+    location.replace("https://www.instagram.com/reel/C8qk3jPq8DF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==")
+}
